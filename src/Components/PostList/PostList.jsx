@@ -7,7 +7,7 @@ const PostList = (props) => {
                 return (
                 <tr>
                     <tr>       
-                        <td>{entry.name}</td>
+                        <td>{entry.individual}</td>
                     </tr>
                     <tr>
                         <td>{entry.post}</td>
