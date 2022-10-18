@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+//import AddPost from './Components/PostSingle/Post'
+import PostList from './Components/PostList/PostList';
+import { useState } from 'react';
 
 function App() {
+
+  const [entries, setEntries] = useState([{name: 'Mr Test', post: "I sure like testing"}, {name: 'Mr Test', post: "I sure like testing"}]) //refering to a collection of singular posts
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PostList instances={entries}/>
     </div>
-  );
+  )
 }
 
 export default App;
