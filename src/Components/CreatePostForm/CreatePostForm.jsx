@@ -7,14 +7,17 @@ const CreatePostForm = (props) => {
     const [individual, setIndividual] = useState('');
     const [post, setPost] = useState('');
 
+
     function handleSubmit(event) {
         event.preventDefault();
-        let newPost = {
+        let submittedPost = {
             individual: individual,
             post: post,
         };
-        props.addNewPost(newPost) //change, attribute is no longer existing
-    }
+        props.addNewPost(submittedPost)
+        }
+
+
 
 
     return ( 
