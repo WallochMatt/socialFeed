@@ -13,7 +13,7 @@ const CreatePostForm = (props) => {
             individual: individual,
             post: post,
         };
-        props.attribute(newPost)
+        props.addNewPost(newPost) //change, attribute is no longer existing
     }
 
 
