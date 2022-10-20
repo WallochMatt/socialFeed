@@ -1,4 +1,4 @@
-
+import NavBar from './Components/NavBar/NavBar';
 import CreatePostForm from './Components/CreatePostForm/CreatePostForm';
 import PostList from './Components/PostList/PostList';
 import { useState } from 'react';
@@ -16,9 +16,14 @@ function App() {
   }
 
   return (
-    <div className='background'>
-      <CreatePostForm addNewPost={newPost}/>
-      <PostList posts={posts}/>
+    <div >
+      <div className='title'>
+          <NavBar/>
+      </div>
+      <div className='format'>
+        <CreatePostForm addNewPost={newPost}/>
+        <PostList posts={posts}/>
+      </div>
     </div>
   )
 }
