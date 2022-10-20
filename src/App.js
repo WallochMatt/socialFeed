@@ -7,7 +7,7 @@ import "./App.css"
 
 function App() {
 
-  const [posts, setPosts] = useState([{individual: 'Mr Test', post: "I sure like testing"}, {individual: 'Mr Test', post: "I sure like testing"}, {individual: 'Mr Test', post: "I sure like testing"}])
+  const [posts, setPosts] = useState([{individual: 'Mr Test', post: "I sure like testing"}])
 
 
   function newPost(post){

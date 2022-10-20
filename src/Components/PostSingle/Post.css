@@ -29,3 +29,10 @@
 p {
     word-wrap: break-word;
 }
+
+.date-like-row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
