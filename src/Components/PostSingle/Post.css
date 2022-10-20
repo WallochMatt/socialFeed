@@ -1,0 +1,30 @@
+.structure{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .content-row{
+    
+} */
+
+.like-row{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buffer{
+    padding: 1em;
+}
+
+.indent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text-cap{
+    width: 85%;
+}
+
+p {
+    word-wrap: break-word;
+}

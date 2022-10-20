@@ -25,15 +25,15 @@ const CreatePostForm = (props) => {
             <div className='post-field'>
                 <div className='name-space'>
                     <label>Name</label>
-                    <input className="name-area" value={individual} onChange={(event) => setIndividual(event.target.value)}></input>
+                    <input type="textarea" className="name-area" value={individual} onChange={(event) => setIndividual(event.target.value)}></input>
                 </div>
                 <div className='post-space'>
                     <label>Post</label>
-                    <input className="post-area" value={post} onChange={(event) => setPost(event.target.value)}></input>
+                    <textarea type="textarea" className="post-area" value={post} onChange={(event) => setPost(event.target.value)}/>
                 </div>
             </div>
             <div className='create-spacer'>
-                <button type='submit'>Create</button>
+                <button className='create' type='submit'>Create</button>
             </div>
         </form>
     );

@@ -1,3 +1,7 @@
+.create{
+    background-color: blue;
+}
+
 .post-box{
     display: flex;
     border: 1px;
@@ -37,3 +41,6 @@
     margin-bottom: 3%;
     margin-right: 5%;
 }
+
+
+

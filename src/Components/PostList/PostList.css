@@ -1,0 +1,9 @@
+.list-item {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.width-lock {
+    width: 30%;
+}

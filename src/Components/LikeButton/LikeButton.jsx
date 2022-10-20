@@ -15,7 +15,7 @@ const LikeButton = (props) => {
         }
     }
         return (
-            <div>
+            <div className='pad'>
                 <button className={props.activity} onClick={handleClick}>Like</button>
             </div>
         )

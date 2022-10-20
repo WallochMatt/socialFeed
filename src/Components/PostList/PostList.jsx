@@ -1,19 +1,19 @@
 import Post from '../PostSingle/Post';
-
+import "./PostList.css"
 
 const PostList = (props) => {
 
 
     return ( 
-        <table>
+        <div className='width-lock'>
         {props.posts.map((entry) => {
             return (
-                <tr>
+                <div className='list-item'>
                     <Post individual={entry.individual} post={entry.post} />
-                </tr>
+                </div>
             );
     })}
-        </table>
+        </div>
     );
 }
 
