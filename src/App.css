@@ -1,0 +1,11 @@
+.background {
+    background-color: rgb(193, 230, 219);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+button {
+    background-color: blue;
+}

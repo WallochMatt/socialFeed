@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import "./DislikeButton.css"
 
 const DislikeButton = (props) => {

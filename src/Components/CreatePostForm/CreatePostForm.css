@@ -1,0 +1,39 @@
+.post-box{
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.post-field{
+    width: 88%;
+
+}
+
+.name-area{
+    width: 95%;
+}
+
+.name-space{
+    padding: 1em;
+}
+
+.post-area{
+    width: 95%;
+    height: 80%;
+}
+
+.post-space{
+    padding: 1em;
+    height: 6em;
+}
+
+.create-spacer{
+    margin-bottom: 3%;
+    margin-right: 5%;
+}

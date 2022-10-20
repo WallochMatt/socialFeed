@@ -2,6 +2,8 @@
 import CreatePostForm from './Components/CreatePostForm/CreatePostForm';
 import PostList from './Components/PostList/PostList';
 import { useState } from 'react';
+import "./App.css"
+
 
 function App() {
 
@@ -14,7 +16,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='background'>
       <CreatePostForm addNewPost={newPost}/>
       <PostList posts={posts}/>
     </div>
