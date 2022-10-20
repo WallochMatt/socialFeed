@@ -1,7 +1,11 @@
 .list-item {
+    background-color: whitesmoke;
     border: 2px;
-    border-color: black;
+    border-color: #7c7676;
     border-style: solid;
+    border-radius: 20px;
+    margin-top: 1em;
+    box-shadow: 5px -5px #c0d2e0;
 }
 
 .width-lock {

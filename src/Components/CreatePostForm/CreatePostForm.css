@@ -1,13 +1,15 @@
 .create{
-    background-color: blue;
+    background-color: rgb(21, 157, 188);
 }
 
 .post-box{
+    margin-top: 1em;
     display: flex;
     border: 1px;
     border-style: solid;
     border-radius: 9px;
     background-color: whitesmoke;
+    box-shadow: 5px -5px #c0d2e0;
     width: 30%;
     flex-direction: row;
     justify-content: space-between;
